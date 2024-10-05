@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .wrapper {
+            width: 1100px;
+            height: 1200px;
+            display: flex;
+            justify-content: space-around;
+            margin: 0 auto;
+            margin-top: 20px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 10px;
+        }
+
+        .box-left {
+            width: 300px;
+            border-top-right-radius: 50%;
+        }
+
+        .box-right {
+            width: 700px;
+            background-color: #f5f5f5;
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .box-image {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+            background-image: url(assets/images/tdat.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .info .text1 {
+            text-transform: uppercase;
+            font-size: 32px;
+            font-weight: bold;
+            margin-top: 10px;
+
+        }
+
+        .info .text2 {
+            font-size: 22px;
+        }
+
+        .info .text1,
+        .info .text2 {
+            display: flex;
+            justify-content: center;
+        }
+
+        #sec1 {
+            margin-top: 40px;
+        }
+
+        .border-dashed {
+            width: 80%;
+            margin: 0 auto;
+            border-top: 2px dashed black;
+
+        }
+
+        .birth,
+        .gender,
+        .email,
+        .phone,
+        .address {
+            display: flex;
+            margin: 20px 0 20px 20px;
+            font-size: 20px;
+        }
+
+        .contact-info p {
+            display: flex;
+            align-items: center;
+            margin-left: 10px;
+        }
+
+        #sec2,
+        #sec3,
+        #sec4 {
+            margin-top: 40px;
+            margin-left: 20px;
+        }
+
+        .title-heading {
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .content {
+            margin-left: 10px;
+            font-size: 20px;
+        }
+
+
+        #sec3 img {
+            width: 60px;
+            height: 60px;
+            margin: 0 15px 20px 10px;
+        }
+
+        .group-technology {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            margin: 14px auto;
+        }
+
+        #sec-right {
+            margin-top: 40px;
+            margin-left: 40px;
+        }
+
+        #sec-right .content {
+            display: flex;
+            margin-left: 20px;
+        }
+
+        .study-info,
+        .project-info {
+            width: 600px;
+        }
+
+        .content .time {
+            width: 180px;
+            display: flex;
+            align-items: center;
+        }
+
+        .project-info ul {}
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="box-left">
+
+            <div class="info">
+
+                <div class="box-image">
+                </div>
+
+                <p class="text1">võ tấn đạt</p>
+                <p class="text2">Intern Front-end developer</p>
+            </div>
+
+            <section id="sec1">
+                <div class="border-dashed"></div>
+                <div class="contact-info">
+
+                    <div class="birth">
+                        <img src="assets/images/calendar.svg" alt="">
+                        <p>20/07/2004</p>
+                    </div>
+                    <div class="email">
+                        <img src="assets/images/email.svg" alt="">
+                        <p>vtdat0720@gmail.com</p>
+                    </div>
+                    <div class="phone">
+                        <img src="assets/images/phone.svg" alt="">
+                        <p>0797373365</p>
+                    </div>
+                    <div class="address">
+                        <img src="assets/images/address.svg" alt="">
+                        <p>Quận 12, tp Hồ Chí Minh</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="sec2">
+
+                <p class="title-heading">mục tiêu nghề nghiệp</p>
+                <div class="content">
+                    <p></p>
+                </div>
+            </section>
+
+            <section id="sec3">
+                <p class="title-heading">công nghệ</p>
+                <div class="content">
+                    <div class="group-technology">
+                        <div class="box-img">
+                            <img src="assets/images/html5.png" alt="">
+                        </div>
+                        <div class="box-img">
+                            <img src="assets/images/css3.svg" alt="">
+                        </div>
+
+                        <div class="box-img">
+                            <img src="assets/images/javascript.webp" alt="">
+                        </div>
+
+                        <div class="box-img">
+                            <img src="assets/images/typescript.png" alt="">
+                        </div>
+
+                        <div class="box-img">
+                            <img src="assets/images/nodejs.svg" alt="">
+                        </div>
+
+                        <div class="box-img">
+                            <img src="assets/images/php.png" alt="">
+                        </div>
+
+                        <div class="box-img">
+                            <img src="assets/images/react.png" alt="">
+                        </div>
+                        <div class="box-img">
+                            <img src="assets/images/angular.png" alt="">
+                        </div>
+
+                        <div class="box-img">
+                            <img src="assets/images/mongodb.png" alt="">
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </section>
+
+            <section id="sec4">
+                <p class="title-heading">sở thích</p>
+                <div class="content">
+                    <ul>
+                        <li>Nghe nhạc</li>
+                        <li>Đọc sách</li>
+                        <li>Tìm hiểu công nghệ mới</li>
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+
+        <div class="box-right">
+
+            <section id="sec-right">
+                <p class="title-heading">học vấn</p>
+                <div class="content">
+                    <div class="study-info">
+                        <ul>
+                            <li>Trường cao đẳng FPT Polytechnic ( 12/2022 - Hiện tại)</li>
+                            <li style="margin-top: -8px;">Chuyên ngành: Lập trình web</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="sec-right">
+                <p class="title-heading">dự án tham gia</p>
+                <div class="content">
+                    <div class="project-info">
+                        <ul>
+                            <li style="font-size: 20px; font-weight: bold;margin-top: 20px; list-style: disc;">Shop bán
+                                quần áo Biny ( dự
+                                án nhóm )</li>
+                            <li>Link github: <a style="text-decoration: none;"
+                                    href="https://github.com/nrkoparama/Biny">https://github.com/nrkoparama/Biny</a>
+                            </li>
+                            <li><img src="assets/images/biny-projectQRcode.svg" width="100" height="100" alt=""></li>
+                            <li style="margin-bottom: 40px;">Đóng góp: tham gia vào quá trình xây dựng trang chủ , trang
+                                sản phẩm
+                                và giỏ hàng</li>
+
+                        </ul>
+                        <ul>
+                            <li style="font-size: 20px; font-weight: bold;margin-top: 20px; list-style: disc;">Shop bán
+                                thực phẩm
+                                Fruitables ( dự án cá nhân )</li>
+                            <li>Link github: <a style="text-decoration: none;"
+                                    href="https://github.com/nrkoparama/Fruitables">https://github.com/nrkoparama/Fuitables</a>
+                            </li>
+                            <li><img src="assets/images/porfolio.svg" width="100" height="100" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="sec-right">
+                <p class="title-heading">Kỹ năng mềm</p>
+                <div class="content">
+                    <ul>
+                        <li>Có kỹ năng làm việc nhóm, hòa đồng với mọi người</li>
+                        <li>Dễ tiếp thu, có thể học thêm nhiều công nghệ mới</li>
+                        <li>Có khả năng giao tiếp tiếng Anh</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
