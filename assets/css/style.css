@@ -34,7 +34,7 @@
     width: 200px;
     height: 200px;
     margin: 0 auto;
-    background-image: url(assets/images/tdat.jpg);
+    background-image: url(../images/tdat.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
